@@ -1,0 +1,50 @@
+// Tag Selectors
+
+img{
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+}
+
+a{
+    color: #d57d1f;
+    transition: color 300ms, background-color 300ms;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f0a350;
+    background-color: transparent;
+}
+
+hr{
+    margin-top: 30px;
+    border: 1px solid white;
+    width: 98%;
+}
+
+// Class Selectors
+
+.meal-container{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meal-div-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: auto;
+}
+
+.meal-div{
+    width: 280px;
+    height: 300px;
+    color: white;
+    margin: auto;
+}

@@ -7,10 +7,12 @@ import { Component } from '@angular/core';
     <nav>
       <div class="container">
         <div class="logo">
-          <img
-            src="https://www.themealdb.com/images/logo-small.png"
-            alt="Logo"
-          />
+          <a href="#">
+            <img
+              src="https://www.themealdb.com/images/logo-small.png"
+              alt="Logo"
+            />
+          </a>
         </div>
         <div>
           <i class="fa-solid fa-bars fa-2xl toggle" style="color: #ffffff;"></i>
@@ -21,7 +23,7 @@ import { Component } from '@angular/core';
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">API</a>
+              <a class="not-active" href="#">API</a>
             </li>
             <li>
               <div>

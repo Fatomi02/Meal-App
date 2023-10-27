@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from "@angular/common";
+import { HttpClientModule } from "@angular/common/http"
+import { NgxPaginationModule } from 'ngx-pagination';
 
 import { AppComponent } from './app.component';
 import { ComponentModule } from './Movie-Code/movie-code.module';
@@ -10,7 +12,7 @@ import { ComponentModule } from './Movie-Code/movie-code.module';
     AppComponent
   ],
   imports: [
-    BrowserModule, CommonModule, ComponentModule
+    BrowserModule, CommonModule, ComponentModule, HttpClientModule, NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
