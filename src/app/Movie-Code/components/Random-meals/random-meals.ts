@@ -6,7 +6,7 @@ import { UserService } from 'src/app/user.service';
   styleUrls: ['./random-meals.scss'],
   template: `
     <div class="random-meal-container">
-      <h4>Random Meals</h4>
+      <h4>Random Meal</h4>
       <div class="random-meal-div">
         <div class="item-div" *ngFor="let item of random.slice(6, 14)">
           <a href="">
