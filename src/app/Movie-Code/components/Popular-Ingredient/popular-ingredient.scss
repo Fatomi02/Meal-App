@@ -1,10 +1,14 @@
 // Tag Selectors
 
+h4 {
+  margin-top: 0px;
+}
+
 img {
   width: 100%;
+  object-fit: contain;
   overflow: hidden;
   height: 250px;
-  object-fit: contain;
 }
 
 a {
@@ -19,15 +23,15 @@ a:hover {
 }
 
 hr {
-  margin-top: 20px;
+  margin-top: 40px;
   border: 1px solid white;
   width: 98%;
 }
 
 // Class Selectors
 
-.meal-container {
-  margin-top: 50px;
+.popular-container {
+  margin-top: 30px;
   text-align: center;
   color: white;
   width: 78%;
@@ -35,7 +39,7 @@ hr {
   margin-right: auto;
 }
 
-.meal-div-container {
+.popular-div {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -43,7 +47,7 @@ hr {
   margin: auto;
 }
 
-.meal-div {
+.popular-items {
   width: 280px;
   height: 300px;
   color: white;

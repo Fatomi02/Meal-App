@@ -9,6 +9,11 @@ import { Component } from '@angular/core';
         <navbar></navbar>
         <body-component></body-component>
         <latest-meal></latest-meal>
+        <popular-ingredient></popular-ingredient>
+        <random-meals></random-meals>
+        <random-ingredient></random-ingredient>
+        <browse-country></browse-country>
+        <footer></footer>
     </div>
     `
 })

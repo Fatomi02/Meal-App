@@ -1,0 +1,48 @@
+#footer{
+    margin-top: 30px;
+    padding: 20px 0px 50px;
+    background-color: #23180d;
+}
+
+p{
+    margin: 0px auto 20px;
+}
+
+i{
+    margin: auto 4px;
+}
+a{
+    color: white;
+}
+
+.social{
+    text-align: center;
+    width: 60%;
+}
+
+.footer-container{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.copyright{
+    text-align: start;
+    width: 20%;
+}
+
+.contact{
+    width: 20%;
+}
+
+.contact a{
+    display: inline-block;
+    padding: 0px 8px;
+    align-items: flex-start;
+    text-decoration: none;
+    color: white;
+}

@@ -2,14 +2,13 @@ import { Component } from '@angular/core';
 import { UserService } from 'src/app/user.service';
 
 @Component({
-  selector: 'latest-meal',
-  styleUrls: ['./latest-meal.component.scss'],
+  selector: 'random-meals',
+  styleUrls: ['./random-meals.scss'],
   template: `
-    <div class="meal-container">
-      <h4>Latest Meals</h4>
-
-      <div class="meal-div-container">
-        <div class="meal-div" *ngFor="let item of categories">
+    <div class="random-meal-container">
+      <h4>Random Meals</h4>
+      <div class="random-meal-div">
+        <div class="item-div" *ngFor="let item of random.slice(6, 14)">
           <a href="">
             <img src="{{ item.strCategoryThumb }}" alt="" />
             {{ item.strCategory }}
@@ -20,11 +19,11 @@ import { UserService } from 'src/app/user.service';
     </div>
   `,
 })
-export class LatestMealComponent {
-  categories: any;
+export class RandomMeals {
+  random: any;
   constructor(private user: UserService) {
     this.user.getData().subscribe((data: any) => {
-      this.categories = data.categories.slice(0, 8);
+      this.random = data.categories.sort(() => Math.random() - 0.5);
     });
   }
 }

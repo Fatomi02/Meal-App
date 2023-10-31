@@ -1,103 +1,102 @@
 // Tag Selector
-h1{
-    color: white;
-    font-size: 2.4rem;
-    margin-bottom: 0px;
+h1 {
+  color: white;
+  font-size: 2.4rem;
+  margin-bottom: 0px;
 }
 
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
 
-p{
-    color: white;
-    font-weight: 100;
-    margin-top: 5px;
-    margin-bottom: 2px;
-    line-height: 22px;
+p {
+  color: white;
+  font-weight: 100;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  line-height: 22px;
 }
 
-img{
-    width: fit-content;
-    width: 100%;
+img {
+  width: fit-content;
+  width: 100%;
 }
 
-a{
-    text-decoration: none;
-    color: #ffc439;
+a {
+  text-decoration: none;
+  color: #ffc439;
 }
 
-hr{
-    border: 1px solid white;
-    width: 98%;
+hr {
+  border: 1px solid white;
+  width: 98%;
 }
 
-input{
-    height: 30px;
-    width: 250px;
-    border-radius: 5px 0px 0px 5px;
+input {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px 0px 0px 5px;
 }
-
 
 // Class Selector
-.container{
-    width: 78%;
-    margin: 20px auto;
+.container {
+  width: 78%;
+  margin: 20px auto;
 }
 
-.welcome-div{
-    display: flex;
-    text-align: center;
-    width: 98%;
-    margin: 0px auto;
+.welcome-div {
+  display: flex;
+  text-align: center;
+  width: 98%;
+  margin: 0px auto;
 }
 
-.paypal-btn{
-    min-width: 130px;
-    background-color: #ffc439;
-    height: 35px;
-    border-radius: 6px;
-    margin-top: 0px;
+.paypal-btn {
+  min-width: 130px;
+  background-color: #ffc439;
+  height: 35px;
+  border-radius: 6px;
+  margin-top: 0px;
 }
 
-.pay{
-    color: blue;
-    font-size: medium;
-    font-weight: 600;
+.pay {
+  color: blue;
+  font-size: medium;
+  font-weight: 600;
 }
 
-.pal{
-    color: rgb(4, 138, 255);
-    font-size: medium;
-    font-weight: 600;
+.pal {
+  color: rgb(4, 138, 255);
+  font-size: medium;
+  font-weight: 600;
 }
 
-.food-img{
-    width: 20%;
+.food-img {
+  width: 20%;
 }
 
-.welcome{
-    width: 60%;
+.welcome {
+  width: 60%;
 }
 
-.search{
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 25px;
+.search {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
-.search-icon{
-    padding: 8px;
-    border-radius: 0px 5px 5px 0px;
+.search-icon {
+  padding: 8px;
+  border-radius: 0px 5px 5px 0px;
 }
 
-.meal-count{
-    color: white;
-    margin-top: 8px;
-    font-weight: bolder;
+.meal-count {
+  color: white;
+  margin-top: 8px;
+  font-weight: bolder;
 }
 
-.ingregients{
-    margin-left: 10px;
-    margin-right: 10px;
+.ingregients {
+  margin-left: 10px;
+  margin-right: 10px;
 }
