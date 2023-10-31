@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { UserService } from 'src/app/user.service';
+import { UserService } from 'src/app/service/user.service';
 
 @Component({
   selector: 'popular-ingredient',
