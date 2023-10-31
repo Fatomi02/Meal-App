@@ -5,50 +5,7 @@ import { UserService } from 'src/app/service/user.service';
 @Component({
   selector: 'popular-ingredient',
   styleUrls: ['./popular-ingredient.scss'],
-  template: `
-    <div class="popular-container">
-      <h4>Popular Ingredients</h4>
-      <div class="popular-div">
-        <div class="popular-items" *ngFor="let ingredient of chicken">
-          <a href="">
-            <img
-              src="https://www.themealdb.com/images/ingredients/Chicken.png"
-              alt=""
-            />
-            {{ ingredient.strIngredient }}
-          </a>
-        </div>
-        <div class="popular-items" *ngFor="let ingredient of salmon">
-          <a href="">
-            <img
-              src="https://www.themealdb.com/images/ingredients/Salmon.png"
-              alt=""
-            />
-            {{ ingredient.strIngredient }}
-          </a>
-        </div>
-        <div class="popular-items" *ngFor="let ingredient of beef">
-          <a href="">
-            <img
-              src="https://www.themealdb.com/images/ingredients/Beef.png"
-              alt=""
-            />
-            {{ ingredient.strIngredient }}
-          </a>
-        </div>
-        <div class="popular-items" *ngFor="let ingredient of pork">
-          <a href="">
-            <img
-              src="https://www.themealdb.com/images/ingredients/Pork.png"
-              alt=""
-            />
-            {{ ingredient.strIngredient }}
-          </a>
-        </div>
-      </div>
-      <hr />
-    </div>
-  `,
+  templateUrl: "popular-ingredient.html"
 })
 export class PopularIngredient {
   chicken: any;

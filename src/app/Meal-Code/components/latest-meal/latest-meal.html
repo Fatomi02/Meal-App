@@ -1,0 +1,13 @@
+<div class="meal-container">
+    <h4>Latest Meals</h4>
+
+    <div class="meal-div-container">
+      <div class="meal-div" *ngFor="let item of categories">
+        <a href="">
+          <img src="{{ item.strCategoryThumb }}" alt="" />
+          {{ item.strCategory }}
+        </a>
+      </div>
+    </div>
+    <hr />
+  </div>

@@ -4,38 +4,7 @@ import { UserService } from "src/app/service/user.service";
 @Component({
     selector: "random-ingredient",
     styleUrls: ["./random-ingredients.scss"],
-    template: `
-        <div class="random-ingredient-container">
-            <h4>Random Ingredients</h4>
-            <div class="random-ingredient-div">
-                <div class="item-div" *ngFor="let item of redcurrants">
-                    <a href="">
-                        <img src="https://www.themealdb.com/images/ingredients/Redcurrants.png" alt="Redcurrants">
-                        {{item.strIngredient}}
-                    </a>
-                </div>
-                <div class="item-div" *ngFor="let item of custardPower">
-                    <a href="">
-                        <img src="https://www.themealdb.com/images/ingredients/Custard%20Powder.png" alt="Redcurrants">
-                        {{item.strIngredient}}
-                    </a>
-                </div>
-                <div class="item-div" *ngFor="let item of paellaRice">
-                    <a href="">
-                        <img src="https://www.themealdb.com/images/ingredients/Paella%20Rice.png" alt="Redcurrants">
-                        {{item.strIngredient}}
-                    </a>
-                </div>
-                <div class="item-div" *ngFor="let item of sake">
-                    <a href="">
-                        <img src="https://www.themealdb.com/images/ingredients/Sake.png" alt="Redcurrants">
-                        {{item.strIngredient}}
-                    </a>
-                </div>
-            </div>
-            <hr>
-        </div>
-    `
+    templateUrl: "random-ingredients.html"
 })
 
 export class RandomIngredient{
