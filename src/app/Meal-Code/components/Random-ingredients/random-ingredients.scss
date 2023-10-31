@@ -49,3 +49,13 @@ h4 {
     color: white;
     margin: auto;
   }
+
+  @media only screen and (max-width: 1000px) {
+    .random-ingredient-container{
+      width: 100%;
+    }
+  
+    hr{
+      width: 94%;
+    }
+  }

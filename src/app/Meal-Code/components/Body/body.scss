@@ -100,3 +100,18 @@ input {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+
+  .food-img {
+    padding-top: 40%;
+  }
+
+  hr{
+    width: 94%;
+  }
+
+}

@@ -50,3 +50,14 @@ hr {
   color: white;
   margin: auto;
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .random-meal-container{
+    width: 100%;
+  }
+
+  hr{
+    width: 94%;
+  }
+}

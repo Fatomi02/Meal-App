@@ -49,3 +49,13 @@ hr {
   color: white;
   margin: auto;
 }
+
+@media only screen and (max-width: 1000px) {
+  .meal-container{
+    width: 100%;
+  }
+
+  hr{
+    width: 94%;
+  }
+}
