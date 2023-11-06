@@ -1,5 +1,8 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
+import { Router } from '@angular/router';
 import { UserService } from 'src/app/service/user.service';
+
+
 
 @Component({
   selector: 'latest-meal',
@@ -9,9 +12,13 @@ import { UserService } from 'src/app/service/user.service';
 
 export class LatestMealComponent {
   categories: any;
-  constructor(private user: UserService) {
+  constructor(private user: UserService, private router: Router) {
     this.user.getData().subscribe((data: any) => {
-      this.categories = data.categories.slice(0, 8);
+      this.categories = data.categories?.slice(0, 8);
     });
+  }
+
+  viewMeal(meal: any) {
+      this.router.navigate(['meal', meal.idCategory], {state: {meal}})
   }
 }

@@ -1,11 +1,9 @@
 <div class="random-meal-container">
     <h4>Random Meal</h4>
     <div class="random-meal-div">
-      <div class="item-div" *ngFor="let item of random.slice(6, 14)">
-        <a href="">
+      <div class="item-div" (click)="viewRandomMeal(item)" *ngFor="let item of random.slice(6, 14)">
           <img src="{{ item.strCategoryThumb }}" alt="" />
           {{ item.strCategory }}
-        </a>
       </div>
     </div>
     <hr />

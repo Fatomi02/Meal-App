@@ -5,4 +5,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.scss'],
   templateUrl: "navbar.html"
 })
-export class Navbar {}
+
+
+export class Navbar {
+
+  navbarOpen = false;
+
+  toggleNavbar() {
+    this.navbarOpen = !this.navbarOpen;
+  }
+}

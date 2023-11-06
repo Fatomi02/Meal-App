@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+    color: #ffc439;
+    font-style: normal;
+}
+
+.container {
+    width: 78%;
+    margin: 0px auto 20px;
+    color: white;
+    padding-bottom: 20px;
+  }
+
+  .innner-container{
+    text-align: center;
+    width: 98%;
+    margin: 0px auto;
+    line-height: 22px;
+  }
+
+  .data-link{
+    color: #c5a1a1;
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    .container{
+      width: 90%;
+    }
+  }

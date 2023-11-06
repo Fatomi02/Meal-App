@@ -1,4 +1,4 @@
-<nav>
+<!-- <nav>
     <div class="container">
       <div class="logo">
         <a href="#">
@@ -14,10 +14,10 @@
       <div class="nav-list">
         <ul>
           <li class="active">
-            <a href="#">Home</a>
+            <a href="/home">Home</a>
           </li>
           <li>
-            <a class="not-active" href="#">API</a>
+            <a href="">API</a>
           </li>
           <li>
             <div>
@@ -29,4 +29,44 @@
         </ul>
       </div>
     </div>
-  </nav>
+
+  </nav> -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+      <a class="navbar-brand" href="#">
+        <img
+        src="https://www.themealdb.com/images/logo-small.png"
+        alt="Logo">
+      </a>
+
+  
+    <button class="navbar-toggler" type="button"
+            (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+  
+    <div class="collapse navbar-collapse show"
+         [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/home">Home</a>
+        </li>
+  
+        <li class="nav-item api">
+          <a class="nav-link" href="/api">API</a>
+        </li>
+  
+        <li>
+          <div>
+            <form action="">
+              <input type="text" placeholder="Search" />
+            </form>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
